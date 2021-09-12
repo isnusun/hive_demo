@@ -31,7 +31,7 @@ class _AddPersonFormState extends State<AddPersonForm> {
     );
 
     box.add(newPerson);
-    print('Info added to box!');
+    print('[info] data baru di box!');
   }
 
   @override

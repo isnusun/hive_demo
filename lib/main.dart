@@ -33,9 +33,9 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       title: 'Hive Demo',
       theme: ThemeData(
-        primarySwatch: Colors.purple,
+        primarySwatch: Colors.lightBlue,
       ),
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
       home: InfoScreen(),
     );
   }

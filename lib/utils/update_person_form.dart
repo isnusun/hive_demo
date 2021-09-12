@@ -39,7 +39,7 @@ class _UpdatePersonFormState extends State<UpdatePersonForm> {
 
     box.putAt(widget.index, newPerson);
 
-    print('Info updated in box!');
+    print('[info] update data di box!');
   }
 
   @override
